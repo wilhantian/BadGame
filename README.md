@@ -10,3 +10,18 @@
    另外我也将Box2d的碰撞事件进行了分发回调，从而大大减少了耦合度。
 
 p.s. 本人职业学生，代码稚嫩、和各种不标准的地方，还请大家见谅！
+
+=======================================================
+主要类说明：
+
+ConfigData  单例 通过此类获取各种配置信息
+DynamicData  单例 动态数据类
+GameManager  单例 游戏管理器 用来驱动游戏和物理引擎 封装事件的分发在此实现
+GameObject  游戏对象  /*这个不用解释了吧？*/
+JINTools   JNI相关的东西 大部分是静态方法  这个JINTools的名字当时写错了...应该是JNITools...哈哈！
+LifeObject    具有生命的对象
+MapAnalysis   游戏地图解析类  就是专门用来解析地图的，我是用TiledMap做的游戏地图编辑器~~
+PhysicsSprite   物理精灵  将Sprite和box2d进行了二次封装
+StaticData    静态数据类 废弃了...
+StaticDataEx  静态数据类
+TextData   专门保存字符串数据的
