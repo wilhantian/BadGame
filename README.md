@@ -3,8 +3,6 @@ BadGame 《烂游戏》
    本游戏使用cocos2d-x 3.2 Final版本开发。
    为了节省git同步时间，我只保留了Classes文件夹和Res资源文件夹。
    
-   ![image](https://github.com/wilhantian/BadGame/blob/master/_image/1.png)
-   
    最开始打算直接使用cocos2d-x3.X内部封装好的物理精灵，不过两个物体碰撞会出现互相嵌入的现象，
 想了好久也没有头绪怎样解决~ 然后我就毅然决然的使用了Box2d物理引擎，将2d-x中的Sprite和Box2D的
 刚体进行封装。
@@ -25,3 +23,8 @@ PhysicsSprite   物理精灵  将Sprite和box2d进行了二次封装<br/>
 StaticData    静态数据类 废弃了...<br/>
 StaticDataEx  静态数据类<br/>
 TextData   专门保存字符串数据的<br/>
+
+ ![image](https://github.com/wilhantian/BadGame/blob/master/_image/1.png)
+  ![image](https://github.com/wilhantian/BadGame/blob/master/_image/2.png)
+   ![image](https://github.com/wilhantian/BadGame/blob/master/_image/5.png)
+    ![image](https://github.com/wilhantian/BadGame/blob/master/_image/6.png)
