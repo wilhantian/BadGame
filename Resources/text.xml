@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0"> 
+<dict>
+
+	<key>finish_text_y</key>				<string>500</string>
+
+	<key>s1</key>							<string>生和死是无法挽回的，唯有享受其间的一段时光</string>
+	<key>s2</key>							<string>活在活着的人的心里，就是没有死去</string>
+	<key>s3</key>							<string>谁怕死，谁就已经不再活着</string>
+
+	<key>h1</key>							<string>当你希望成功，当以恒心为良友</string>
+	<key>h2</key>							<string>不是因有了机会才争取，而是因争取了才有机会</string>
+	<key>h3</key>							<string>生命只有一次，我们要抓住这唯一的机会</string>
+
+	
+
+	<key>bad_game_en_y</key>				<string>590</string>
+	<key>bad_game_en</key>					<string>Bad Game</string>
+
+	<key>bad_game_ch_y</key>				<string>550</string>
+    <key>bad_game_ch</key>					<string>烂游戏</string>
+	
+	<key>make_by_en_y</key>					<string>470</string>
+	<key>make_by_en</key>					<string>Game Producer: 田伟汉</string>
+	
+	<key>twitter_y</key>					<string>380</string>
+	<key>twitter</key>						<string>Twitter: @wilhan.tian</string>
+
+	<key>weibo_y</key>						<string>320</string>
+	<key>weibo</key>						<string>Weibo: @棌棌棌棌棌厷</string>
+
+	<key>email_y</key>						<string>260</string>
+	<key>email</key>						<string>E·mail: wilhan.tian@gmail.com</string>
+
+	<key>web_size_y</key>					<string>200</string>
+	<key>web_size</key>						<string>WebSite: www.pxbomb.com</string>
+	
+	<key>some_word_ch_y</key>				<string>90</string>
+	<key>some_word_ch</key>					<string>本人学生党，没技术、没美工，自(yong)娱(lai)自(zhuang)乐(Bi)的东西，大家懂得~</string>
+</dict>
+</plist>

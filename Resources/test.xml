@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0"> 
+<dict>
+<!--跳台 JumpBoard-->
+	<key>jump_path_texture_on</key>			<string>Items/springboardDown_ok.png</string>			<!--基本纹理-->
+	<key>jump_path_texture_off</key>		<string>Items/springboardUp.png</string>			<!--基本纹理-->
+	<key>jump_float_width</key>				<string>70</string>									<!--width-->
+	<key>jump_float_height</key>			<string>36</string>									<!--height-->
+<!--门-->
+	<key>door_path_texture</key>			<string>Items/door.png</string>			<!--基本纹理-->
+	<key>door_float_width</key>				<string>70</string>					<!--宽-->
+	<key>door_float_height</key>			<string>110</string>				<!--高-->
+<!--锋刺-->
+	<key>spikes_int_atk</key>				<string>2</string>				<!--伤害-->
+	<key>spikes_float_unbeatable</key>		<string>0.7</string>			<!--攻击hero后，hero的无敌时间-->
+<!--箱子 or 类似-->
+    <key>article_path_texture</key>			<string>Items/box.png</string>			<!--基本纹理-->
+	<key>article_path_texture_1</key>		<string>Items/box_1.png</string>		<!--基本纹理2-->
+	<key>article_path_dead</key>			<string>ArticleBomb.plist</string>	<!--死亡动画路径-->
+	<key>article_animate_dead</key>			<string>ArticleBomb</string>	<!--死亡动画名-->
+	<key>article_float_dead_speed</key>		<string>0.04</string>			<!--死亡动画播放速度-->
+    <key>article_float_restitution</key>	<string>0.01</string>			<!--弹力-->
+    <key>article_float_friction</key>		<string>0.2</string>			<!--摩擦力-->
+	<key>article_float_mass</key>			<string>20</string>				<!--质量-->
+    <key>article_float_i</key>				<string>0.4</string>			<!--扭转力-->
+    <key>article_int_hp</key>				<string>4</string>				<!--HP-->
+	<key>article_float_width</key>			<string>70</string>				<!--w-->
+	<key>article_float_height</key>			<string>70</string>				<!--h-->
+	<key>article_float_bomb_coin_odds</key>	<string>12</string>			<!--出现金币几率-->
+<!--金币-->
+	<key>coin_path_texture</key>			<string>Items/coin.png</string>			<!--基本纹理-->
+	
+	<key>coin_int_coin</key>				<string>1</string>				<!--每次金币数量-->
+	<key>coin_float_width</key>				<string>36</string>				<!--width-->
+	<key>coin_float_height</key>			<string>36</string>				<!--height-->
+<!--普通子弹 Weapon-->
+	<key>weapon_path_texture</key>			<string>miss.png</string>		<!--基本纹理-->
+	<key>weapon_int_hp</key>				<string>1</string>				<!--子弹HP-->
+	<key>weapon_int_atk</key>				<string>1</string>				<!--子弹伤害-->
+	<key>weapon_float_speed</key>			<string>20</string>				<!--子弹速度-->
+	<key>weapon_animate_dead</key>			<string>Missile</string>		<!--死亡动画名-->
+	<key>weapon_float_dead_speed</key>		<string>0.1</string>			<!--死亡动画播放速度-->
+	<key>weapon_float_width</key>			<string>22</string>				<!--宽-->
+	<key>weapon_float_height</key>			<string>25</string>				<!--高-->
+<!--手榴弹 Grenade-->
+	<key>grenade_path_texture</key>			<string>Items/bomb.png</string>	<!--基本纹理-->
+	<key>grenade_path_dead</key>			<string>Items/bomb_dead.plist</string>	<!--死亡动画路径-->
+	<key>grenade_animate_dead</key>			<string>bomb_dead</string>	<!--死亡动画名-->
+	<key>grenade_float_dead_speed</key>		<string>0.04</string>			<!--死亡动画播放速度-->
+	<key>grenade_float_restitution</key>	<string>0.5</string>			<!--弹力-->
+    <key>grenade_float_friction</key>		<string>0.8</string>			<!--摩擦力-->
+	<key>grenade_float_mass</key>			<string>1</string>				<!--质量-->
+    <key>grenade_float_i</key>				<string>0.01</string>			<!--扭转力-->
+	<key>grenade_float_width</key>			<string>40</string>				<!--宽-->
+	<key>grenade_float_height</key>			<string>40</string>				<!--高-->
+	<key>grenade_float_bombtime</key>		<string>3</string>				<!--几秒后引燃-->
+	<key>grenade_float_velocity_a</key>		<string>1</string>				<!--扔出时旋转速力度-->
+	<key>grenade_float_velocity_x</key>		<string>5</string>				<!--扔出时X的速力度-->
+	<key>grenade_float_velocity_y</key>		<string>4</string>				<!--扔出时Y的速力度-->
+	<key>grenade_float_fragment_size</key>	<string>5</string>				<!--每个爆炸碎片大小-->
+<!--爆炸碎片 Fragment-->
+	<key>fragment_int_atk</key>				<string>1</string>				<!--每个碎片的伤害-->
+	<key>fragment_int_distance</key>		<string>100</string>			<!--伤害距离 单位:px-->
+<!--英雄 Hero-->
+	<key>hero_animate_walk_right</key>		<string>hero_walk_right</string>		<!--向右侧行走动画-->
+	<key>hero_float_walk_right_speed</key>	<string>0.08</string>			<!--向右侧行走动画速度-->
+	<key>hero_animate_walk_left</key>		<string>hero_walk_left</string>		<!--向左侧行走动画-->
+	<key>hero_float_walk_left_speed</key>	<string>0.08</string>			
+
+	<key>hero_animate_dead</key>			<string>hero_dead</string>		<!--死亡动画名-->
+	<key>hero_float_dead_speed</key>		<string>0.4</string>				<!--死亡动画播放速度-->
+	<key>hero_animate_stop</key>			<string>hero_stop</string>			<!--静止动画名-->
+	<key>hero_float_stop_speed</key>		<string>0.7</string>			<!--静止动画播放速度-->
+	<key>hero_float_speed</key>				<string>2</string>				<!--行走速度-->
+
+	<key>hero_float_spring</key>			<string>5</string>				<!--跳跃力-->
+	<key>hero_int_hp</key>					<string>3</string>				<!--英雄HP-->
+	<key>hero_float_mass</key>				<string>1</string>				<!--质量-->
+    <key>hero_float_i</key>					<string>0.5</string>			<!--扭转力-->
+	<key>hero_float_width</key>				<string>43</string>				<!--宽-->
+	<key>hero_float_height</key>			<string>90</string>				<!--高-->
+<!--史莱姆-->
+	<key>slime_animate_dead</key>			<string>slime_dead</string>		<!--飞行动画名-->
+	<key>slime_float_dead_speed</key>		<string>1</string>				<!--飞行动画名-->
+	<key>slime_animate_walk_left</key>		<string>slime_walk_left</string>	<!--飞行动画名-->
+	<key>slime_float_walk_left_speed</key>	<string>0.5</string>				<!--飞行动画名-->
+	<key>slime_animate_walk_right</key>		<string>slime_walk_right</string>	<!--飞行动画名-->
+	<key>slime_float_walk_right_speed</key>	<string>0.5</string>				<!--飞行动画名-->
+	
+	<key>slime_float_unbeatable</key>		<string>0.5</string>			<!--攻击hero后，hero的无敌时间-->
+	<key>slime_float_width</key>			<string>50</string>				<!--width-->
+	<key>slime_float_height</key>			<string>28</string>				<!--height-->
+	<key>slime_int_hp</key>					<string>2</string>				<!--HP-->
+	<key>slime_int_atk</key>				<string>1</string>				<!--atk-->
+	<key>slime_float_atk_jump</key>			<string>5</string>				<!--英雄伤害后跳跃力度-->
+	<key>slime_float_speed</key>			<string>0.5</string>				<!--speed-->
+	<key>slime_float_sight_distance</key>	<string>300</string>			<!--在该区域内发现hero 单位:px-->
+
+<!--飞行史莱姆 FlyingSlime-->
+	<key>flyingslime_animate_fly_left</key>			<string>fly01_fly_left</string>	<!--飞行动画名-->
+	<key>flyingslime_float_fly_left_speed</key>		<string>0.08</string>			<!--飞行动画播放速度-->
+	<key>flyingslime_animate_fly_right</key>		<string>fly01_fly_right</string>	<!--飞行动画名-->
+	<key>flyingslime_float_fly_right_speed</key>	<string>0.08</string>			<!--飞行动画播放速度-->
+	<key>flyingslime_animate_dead</key>				<string>fly01_dead</string>	<!--飞行动画名-->
+	<key>flyingslime_float_dead_speed</key>			<string>0.5</string>			<!--飞行动画播放速度-->
+
+	<key>flyingslime_float_sight_distance</key>		<string>480</string>			<!--在该区域内发现hero 单位:px-->
+
+	<key>flyingslime_animate_fly</key>		<string>FlyingSlime</string>	<!--飞行动画名-->
+	<key>flyingslime_float_fly_speed</key>	<string>0.04</string>			<!--飞行动画播放速度-->
+
+	<key>flyingslime_float_speed</key>		<string>0.6</string>			<!--史莱姆飞行速度-->
+	<key>flyingslime_int_hp</key>			<string>1</string>				<!--HP-->
+	<key>flyingslime_int_atk</key>			<string>1</string>				<!--伤害-->
+	<key>flyingslime_float_unbeatable</key>	<string>0.6</string>			<!--攻击hero后，hero的无敌时间-->
+	<key>flyingslime_float_width</key>		<string>86</string>				<!--width-->
+	<key>flyingslime_float_height</key>		<string>45</string>				<!--height-->
+<!--鸟 Bird-->
+	<key>bird_animate_stop</key>			<string>Bird</string>			<!--静止动画名-->
+	<key>bird_float_stop_speed</key>		<string>0.04</string>			<!--静止动画播放速度-->
+	<key>bird_animate_fly</key>				<string>BirdFly</string>		<!--飞行动画名-->
+	<key>bird_float_fly_speed</key>			<string>0.04</string>			<!--飞行动画播放速度-->
+	<key>bird_int_sight_distance</key>		<string>200</string>			<!--鸟的视野 在该区域内发现hero会飞走 单位:px-->
+	<key>bird_float_width</key>				<string>71</string>				<!--width-->
+	<key>bird_float_height</key>			<string>54</string>				<!--height-->
+<!--地板 Brick-->
+	<key>brick_path_texture</key>			<string>fl.png</string>			<!--基本纹理 *测试用-->
+<!--怪物 Monster-->
+	<key>monster_animate_dead</key>			<string>HeroDie</string>		<!--死亡动画名-->
+	<key>monster_float_dead_speed</key>		<string>0.2</string>			<!--死亡动画播放速度-->
+	<key>monster_animate_stop</key>			<string>Hero</string>			<!--静止动画名-->
+	<key>monster_float_stop_speed</key>		<string>0.2</string>			<!--静止动画播放速度-->
+	<key>monster_float_speed</key>			<string>1</string>				<!--行走速度-->
+	<key>monster_float_spring</key>			<string>5</string>				<!--跳跃力-->
+	<key>monster_int_hp</key>				<string>3</string>				<!--HP-->
+	<key>monster_float_mass</key>			<string>1</string>				<!--质量-->
+    <key>monster_float_i</key>				<string>0.5</string>			<!--扭转力-->
+	<key>monster_float_fireTime</key>		<string>2</string>				<!--开火间隔-->
+	<key>monster_float_width</key>			<string>44</string>				<!--宽-->
+	<key>monster_float_height</key>			<string>100</string>			<!--高-->
+<!--墙壁 Wall-->
+	<key>wall_path_texture</key>			<string>fl.png</string>			<!--基本纹理 *测试用-->
+
+	
+</dict>
+</plist>

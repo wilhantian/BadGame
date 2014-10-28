@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="25" tilewidth="70" tileheight="70">
+ <tileset firstgid="1" name="some" tilewidth="70" tileheight="70">
+  <image source="Tiles/some.png" width="350" height="420"/>
+ </tileset>
+ <tileset firstgid="31" name="door" tilewidth="70" tileheight="110">
+  <image source="Items/door.png" width="70" height="110"/>
+ </tileset>
+ <tileset firstgid="32" name="springboardDown_ok" tilewidth="70" tileheight="36">
+  <image source="Items/springboardDown_ok.png" width="70" height="36"/>
+ </tileset>
+ <tileset firstgid="33" name="springboardDown" tilewidth="70" tileheight="70">
+  <image source="Items/springboardDown.png" width="70" height="70"/>
+ </tileset>
+ <layer name="bk" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1GELgjAQxnFfRUSEpfRqfv+vmcINRLa6m5sn8f/BkcRtrnvSrgMAAAAAAABwtMn7AAmj9wEchUb7euf8dL5/qVZ5tNpXY8mil+vB8RyR5b9pmVurfWvrpW5S35Q8R9ZnP85Cs+7X3NZ7WGZ8hjy0vVbW3xY2nzmToidkrrVnyKnxfn/P9Up8H/NY3lVXqcdc91XPKOv35KF9TrR5BGVPvHfNPErmcBba+Vr7LXloelPrci47y9M/5gEAgIcPQx8IAQ==
+  </data>
+ </layer>
+ <layer name="qq" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEOQDAYhVEWaUQMRt7/PRkM0pCqCh3OSb6t03+HNg0AAAAAwLUp420fxXNdIr7VJuJb9qiLPerydI9xa9iLhT3OhaijO3uk/vycKJfaLKdFr96ztFm/b2APe9Rc6Q2pywrzvByQ
+  </data>
+ </layer>
+ <layer name="q" width="100" height="25">
+  <data encoding="base64" compression="zlib">
+   eJzt1qEKACEQBFBBBINc8f//VQ0Gw8GFgzW8B9OnLDspAQAAAAC8azNPdAm4UI8uwCHPlOgScAn3EGf/hrWd1oaqHwIAwL8GWhQAsw==
+  </data>
+ </layer>
+ <objectgroup name="BrickLayer" width="100" height="25">
+  <object name="Wall" type="Wall" x="1" y="1331" width="1330" height="350"/>
+  <object name="Spikes" type="Spikes" x="6373" y="1289" width="624" height="42"/>
+  <object name="Brick" type="Brick" x="6369" y="911" width="562" height="58"/>
+  <object name="Brick" type="Brick" x="6720" y="1049" width="139" height="43"/>
+  <object name="Brick" type="Brick" x="6439" y="1191" width="139" height="43"/>
+  <object name="Wall" type="Wall" x="630" y="1120" width="140" height="68"/>
+  <object name="Wall" type="Wall" x="5880" y="1330" width="1120" height="350"/>
+  <object name="Spikes" type="Spikes" x="5878" y="1287" width="292" height="42"/>
+  <object name="Spikes" type="Spikes" x="840" y="1295" width="138" height="40"/>
+  <object name="DeadRoof" type="DeadRoof" x="1330" y="1470" width="4550" height="210"/>
+  <object name="Wall" type="Wall" x="560" y="910" width="280" height="70"/>
+ </objectgroup>
+ <objectgroup name="CoinLayer" width="100" height="25">
+  <object name="Coin" type="Coin" x="6473" y="1109" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="6838" y="833" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="6729" y="827" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="388" y="1267" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="472" y="1266" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="1050" y="1260" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="1120" y="1260" width="79" height="70"/>
+ </objectgroup>
+ <objectgroup name="MonsterLayer" width="100" height="25">
+  <object name="Slime" type="Slime" x="727" y="1259" width="74" height="46"/>
+  <object name="FlyingSlime" type="FlyingSlime" x="6234" y="676" width="127" height="106"/>
+  <object name="Slime" type="Slime" x="5890" y="1276" width="74" height="46"/>
+  <object name="FlyingSlime" type="FlyingSlime" x="0" y="1050" width="127" height="106"/>
+ </objectgroup>
+ <objectgroup name="ArticleLayer" width="100" height="25">
+  <object name="Door" type="Door" gid="31" x="6440" y="910"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="1260" y="1330"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="1680" y="1260"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="2100" y="1190"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="2520" y="1120"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="2870" y="1260"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="3290" y="1190"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="3636" y="1293"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="4060" y="1190"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="4411" y="853"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="4836" y="759"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="5164" y="997"/>
+  <object name="JumpBoard" type="JumpBoard" gid="32" x="5575" y="1165"/>
+  <object name="Article" type="Article" gid="7" x="700" y="1120"/>
+ </objectgroup>
+ <objectgroup name="HeroLayer" width="100" height="25">
+  <object name="Hero" type="Hero" x="270" y="1226" width="97" height="76"/>
+ </objectgroup>
+</map>

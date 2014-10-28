@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0"> 
+<dict>
+<!--设置层-->
+	<key>setting_pause_x</key>				<string>480</string>				<!--PAUSE LOGO 坐标-->
+	<key>setting_pause_y</key>				<string>420</string>
+	<key>setting_back_x</key>				<string>300</string>				<!--返回按钮 坐标-->
+	<key>setting_back_y</key>				<string>150</string>
+	<key>setting_home_x</key>				<string>480</string>				<!--主页按钮 坐标-->
+	<key>setting_home_y</key>				<string>150</string>
+	<key>setting_break_x</key>				<string>670</string>				<!--刷新按钮 坐标-->
+	<key>setting_break_y</key>				<string>150</string>
+<!--背景层视差-->
+	<key>bk_ratio_x</key>					<string>0.5</string>				<!--与屏幕左对齐-->
+	<key>bk_ratio_y</key>					<string>0.8</string>				<!--与屏幕上对齐-->
+<!--HUD-->
+	<key>hud_pause_bt_x</key>				<string>890</string>				<!--暂停按钮-->
+	<key>hud_pause_bt_y</key>				<string>50</string>					<!--与屏幕上对齐-->
+	<key>hud_hp_x</key>						<string>50</string>					<!--与屏幕左对齐-->
+	<key>hud_hp_y</key>						<string>50</string>					<!--与屏幕上对齐-->
+	<key>hud_coin_x</key>					<string>700</string>				<!--与屏幕左对齐-->
+	<key>hud_coin_y</key>					<string>50</string>					<!--与屏幕上对齐-->
+	<!--GAME BUTTON-->
+	<key>hud_but_width</key>				<string>157</string>				<!--width-->
+	<key>hud_but_left_x</key>				<string>20</string>					<!--LEFT-->
+	<key>hud_but_left_y</key>				<string>20</string>				
+	<key>hud_but_right_x</key>				<string>207</string>				<!--RIGHT-->
+	<key>hud_but_right_y</key>				<string>20</string>				
+	<key>hud_but_A_x</key>					<string>596</string>				<!--A-->
+	<key>hud_but_A_y</key>					<string>20</string>				
+	<key>hud_but_B_x</key>					<string>783</string>				<!--B-->
+	<key>hud_but_B_y</key>					<string>20</string>				
+<!--开始场景-->
+	<key>number</key>					<string>version: 1_3_0_RC</string>	<!--版本号-->
+	<key>share_content</key>			<string>《烂游戏》现已添加怪物、更新关卡！————更刺激！更好玩！</string>	<!--分享内容-->
+	<key>share_picture</key>	<string>http://image16-c.poco.cn/mypoco/myphoto/20140928/18/17537972320140928180559058.png?108x108_130</string>	<!--分享内容-->
+	<key>share_websize</key>	<string>http://zhushou.360.cn/detail/index/soft_id/2085805/</string>	<!--分享内容-->
+
+    <key>start_scene_about_button_y</key>			<string>135</string>	<!--关于按钮-->
+	<key>start_scene_more_button_y</key>			<string>320</string>	<!--更多按钮-->
+	<key>start_scene_setting_button_y</key>			<string>500</string>	<!--设置按钮-->
+
+	<key>start_scene_exit_button_x</key>			<string>900</string>	<!--退出按钮-->
+	<key>start_scene_exit_button_y</key>			<string>60</string>		<!--退出按钮-->
+
+	<key>start_scene_msg_button_x</key>				<string>900</string>	<!--反馈/消息按钮-->
+	<key>start_scene_msg_button_y</key>				<string>180</string>	<!--反馈/消息按钮-->
+	
+	<key>start_scene_logo_y</key>					<string>500</string>	<!--LOGO-->
+	<key>start_scene_start_button_y</key>			<string>200</string>	<!--设置按钮-->
+<!--关卡场景-->
+	<key>level_scene_back_button_x</key>			<string>101</string>	<!--返回按钮-->
+	<key>level_scene_back_button_y</key>			<string>559</string>
+	<key>level_scene_logo_y</key>					<string>513</string>	<!--LOGO-->
+	
+	<!--关卡数字按钮-->
+	<key>level_scene_button_1_x</key>					<string>206</string>
+	<key>level_scene_button_1_y</key>					<string>316</string>
+	<key>level_scene_button_2_x</key>					<string>389</string>
+	<key>level_scene_button_2_y</key>					<string>316</string>
+	<key>level_scene_button_3_x</key>					<string>571</string>
+	<key>level_scene_button_3_y</key>					<string>316</string>
+	<key>level_scene_button_4_x</key>					<string>754</string>
+	<key>level_scene_button_4_y</key>					<string>316</string>
+
+	<key>level_scene_button_5_x</key>					<string>206</string>
+	<key>level_scene_button_5_y</key>					<string>132</string>
+	<key>level_scene_button_6_x</key>					<string>389</string>
+	<key>level_scene_button_6_y</key>					<string>132</string>
+	<key>level_scene_button_7_x</key>					<string>571</string>
+	<key>level_scene_button_7_y</key>					<string>132</string>
+	<key>level_scene_button_8_x</key>					<string>754</string>
+	<key>level_scene_button_8_y</key>					<string>132</string>
+<!--结束场景-->
+	<key>finish_scence_coin_x</key>						<string>420</string>
+	<key>finish_scence_coin_y</key>						<string>370</string>
+	<key>finish_scence_num_x</key>						<string>480</string>
+	<key>finish_scence_num_y</key>						<string>370</string>
+	<key>finish_scence_next_x</key>						<string>480</string>
+	<key>finish_scence_next_y</key>						<string>120</string>
+</dict>
+</plist>

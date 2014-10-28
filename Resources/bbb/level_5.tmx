@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" name="fl" tilewidth="30" tileheight="30">
+  <image source="fl.png" width="30" height="30"/>
+ </tileset>
+ <tileset firstgid="2" name="Coin" tilewidth="30" tileheight="30">
+  <image source="Coin.png" width="111" height="61"/>
+ </tileset>
+ <tileset firstgid="8" name="MonsterMap" tilewidth="50" tileheight="100">
+  <image source="MonsterMap.png" width="50" height="103"/>
+ </tileset>
+ <tileset firstgid="9" name="FlyingSlimeMap" tilewidth="88" tileheight="44">
+  <image source="FlyingSlimeMap.png" width="88" height="44"/>
+ </tileset>
+ <tileset firstgid="10" name="BirdMap" tilewidth="71" tileheight="54">
+  <image source="BirdMap.png" width="71" height="54"/>
+ </tileset>
+ <layer name="bk" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt2SEOgDAUBcFy/0sjKkgNSQV0xUyCf1nMD4wBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMF2Bh8fpHt7JqtCisKGi0KKwoaLQorChotCisKHi79vJjfWu0KKwoaLQorChotCisKGi0KKwoaLQorCh4ssWOzcXU6FFYUNFoUVhQ0WhRWFDRaFFYUNFoUVhQ0WhRWFDxel/tb4nrm7RHwCL
+  </data>
+ </layer>
+ <objectgroup name="BrickLayer" width="100" height="100">
+  <object name="Brick" type="Brick" x="1" y="2400" width="987" height="27"/>
+  <object name="Brick" type="Brick" x="2" y="2969" width="1013" height="28"/>
+  <object name="Brick" type="Brick" x="961" y="2430" width="58" height="30"/>
+  <object name="Wall" type="Wall" x="0" y="2429" width="30" height="569"/>
+  <object name="Brick" type="Brick" x="689" y="2758" width="180" height="30"/>
+  <object name="Brick" type="Brick" x="26" y="2580" width="693" height="28"/>
+  <object name="Brick" type="Brick" x="839" y="2579" width="180" height="30"/>
+ </objectgroup>
+ <objectgroup name="CoinLayer" width="100" height="100">
+  <object gid="2" x="30" y="2970"/>
+  <object gid="2" x="60" y="2970"/>
+  <object gid="2" x="90" y="2970"/>
+  <object gid="2" x="120" y="2970"/>
+  <object gid="2" x="150" y="2970"/>
+  <object gid="2" x="180" y="2970"/>
+  <object gid="2" x="210" y="2970"/>
+  <object gid="2" x="240" y="2970"/>
+  <object gid="2" x="300" y="2970"/>
+  <object gid="2" x="270" y="2970"/>
+  <object gid="2" x="330" y="2970"/>
+  <object gid="2" x="360" y="2970"/>
+  <object gid="2" x="390" y="2970"/>
+  <object gid="2" x="420" y="2970"/>
+  <object gid="2" x="60" y="2940"/>
+  <object gid="2" x="90" y="2940"/>
+  <object gid="2" x="120" y="2940"/>
+  <object gid="2" x="150" y="2940"/>
+  <object gid="2" x="180" y="2940"/>
+  <object gid="2" x="210" y="2940"/>
+  <object gid="2" x="240" y="2940"/>
+  <object gid="2" x="270" y="2940"/>
+  <object gid="2" x="300" y="2940"/>
+  <object gid="2" x="330" y="2940"/>
+  <object gid="2" x="360" y="2940"/>
+  <object gid="2" x="390" y="2940"/>
+  <object gid="2" x="420" y="2940"/>
+  <object gid="2" x="30" y="2940"/>
+  <object gid="2" x="480" y="2970"/>
+  <object gid="2" x="510" y="2970"/>
+  <object gid="2" x="540" y="2970"/>
+  <object gid="2" x="570" y="2970"/>
+  <object gid="2" x="600" y="2970"/>
+  <object gid="2" x="630" y="2970"/>
+  <object gid="2" x="660" y="2970"/>
+  <object gid="2" x="690" y="2970"/>
+  <object gid="2" x="720" y="2970"/>
+  <object gid="2" x="750" y="2970"/>
+  <object gid="2" x="780" y="2970"/>
+  <object gid="2" x="810" y="2970"/>
+  <object gid="2" x="840" y="2970"/>
+  <object gid="2" x="870" y="2970"/>
+  <object gid="2" x="900" y="2970"/>
+  <object gid="2" x="930" y="2970"/>
+  <object gid="2" x="960" y="2970"/>
+ </objectgroup>
+ <objectgroup name="MonsterLayer" width="100" height="100">
+  <object name="MonsterEx" type="MonsterEx" gid="8" x="40" y="2572"/>
+  <object name="FlyingSlime" type="FlyingSlime" gid="9" x="206" y="2565"/>
+  <object name="Bird" type="Bird" gid="10" x="904" y="2571"/>
+  <object name="Bird" type="Bird" gid="10" x="225" y="2957"/>
+ </objectgroup>
+ <objectgroup name="ArticleLayer" width="100" height="100">
+  <object name="Article" type="Article" gid="1" x="690" y="2573"/>
+  <object name="Article" type="Article" gid="1" x="584" y="2572"/>
+  <object name="Article" type="Article" gid="1" x="405" y="2926"/>
+  <object name="Article" type="Article" gid="1" x="402" y="2839"/>
+  <object name="Article" type="Article" gid="1" x="288" y="2758"/>
+ </objectgroup>
+ <objectgroup name="HeroLayer" width="100" height="100">
+  <object name="Hero" type="Hero" gid="8" x="556" y="2816"/>
+ </objectgroup>
+</map>

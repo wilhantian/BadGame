@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>slime_dead0000</key>
+			<dict>
+				<key>aliases</key>
+				<array/>
+				<key>sourceColorRect</key>
+				<string>{{0,0},{60,12}}</string>
+				<key>spriteOffset</key>
+				<string>{0,0}</string>
+				<key>spriteSize</key>
+				<string>{60,12}</string>
+				<key>spriteSourceSize</key>
+				<string>{60,12}</string>
+				<key>spriteTrimmed</key>
+				<false/>
+				<key>textureRect</key>
+				<string>{{3,3},{60,12}}</string>
+				<key>textureRotated</key>
+				<false/>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>3</integer>
+			<key>size</key>
+			<string>{69,18}</string>
+			<key>target</key>
+			<dict>
+				<key>name</key>
+				<string>slime_dead.png</string>
+				<key>textureFileName</key>
+				<string>slime_dead</string>
+				<key>textureFileExtension</key>
+				<string>png</string>
+				<key>premultipliedAlpha</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+</plist>

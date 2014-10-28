@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0"> 
+<dict>
+<!--英雄动画帧序列-->
+	<key>1</key>			<string>Hero/hero_walk_right.plist</string>
+	<key>2</key>			<string>Hero/hero_walk_left.plist</string>			
+	<key>3</key>			<string>Hero/hero_stop.plist</string>			
+	<key>4</key>			<string>Hero/hero_dead.plist</string>			
+
+	<key>5</key>			<string>Hero.plist</string>			
+	<key>6</key>			<string>HeroDie.plist</string>			
+<!--怪物动画帧序列-->
+	<key>7</key>			<string>Monster.plist</string>			
+	<key>8</key>			<string>MonsterDie.plist</string>			
+<!--鸟动画帧序列-->
+	<key>9</key>			<string>Bird.plist</string>			
+	<key>10</key>			<string>BirdFly.plist</string>			
+<!--飞行史莱姆-->
+	<key>11</key>			<string>Enemies/fly01_fly_left.plist</string>			
+	<key>12</key>			<string>Enemies/fly01_fly_right.plist</string>		
+	<key>13</key>			<string>Enemies/fly01_dead.plist</string>				
+<!--添加子弹-->
+	<key>14</key>			<string>Missile.plist</string>			
+<!--添加金币-->
+	<key>15</key>			<string>Coin.plist</string>			
+<!--添加物体-->
+	<key>16</key>			<string>ArticleBomb.plist</string>
+<!--手榴弹-->
+	<key>17</key>			<string>Items/bomb_dead.plist</string>
+<!--史莱姆-->
+	<key>18</key>			<string>Enemies/slime_walk_left.plist</string>
+	<key>19</key>			<string>Enemies/slime_walk_right.plist</string>
+	<key>20</key>			<string>Enemies/slime_dead.plist</string>
+	
+</dict>
+</plist>

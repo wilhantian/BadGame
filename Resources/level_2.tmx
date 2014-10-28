@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="60" height="20" tilewidth="70" tileheight="70">
+ <tileset firstgid="1" name="some" tilewidth="70" tileheight="70">
+  <image source="Tiles/some.png" width="350" height="420"/>
+ </tileset>
+ <tileset firstgid="31" name="door" tilewidth="70" tileheight="110">
+  <image source="Items/door.png" width="70" height="110"/>
+ </tileset>
+ <tileset firstgid="32" name="springboardDown_ok" tilewidth="70" tileheight="36">
+  <image source="Items/springboardDown_ok.png" width="70" height="36"/>
+ </tileset>
+ <tileset firstgid="33" name="springboardDown" tilewidth="70" tileheight="70">
+  <image source="Items/springboardDown.png" width="70" height="70"/>
+ </tileset>
+ <layer name="bk" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt1MEKABAMxvE9AlPe/1GdlGgtBxn9fxc1pu8wRAAAAABEUo26DqsaZ6J5KStW+XaAQ/pMlqmexH5/Y9/unpfF6vX+Au9e4CcNBYoBTw==
+  </data>
+ </layer>
+ <layer name="qq" width="60" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztk+EKgCAMhBda9NPwT73/i6agIMMsR2jkfXAo3IY7mEQAAAAAAAB8n633AA2wyd10m6Idykk7zZTPG/1YI2EX9klI89zh80p3WoeT96uHb/fAUP1O83xv/YmjonYNKnnc9zuX5uW+pTw8n2G1pVmuMi2DaYJ+rROKjAPU
+  </data>
+ </layer>
+ <objectgroup name="BrickLayer" width="60" height="20">
+  <object name="Wall" type="Wall" x="1" y="1191" width="7007" height="337"/>
+  <object name="Brick" type="Brick" x="1609" y="909" width="212" height="41"/>
+  <object name="Brick" type="Brick" x="2169" y="910" width="282" height="41"/>
+  <object name="Brick" type="Brick" x="2867" y="980" width="72" height="43"/>
+  <object name="Spikes" type="Spikes" x="841" y="1153" width="140" height="38"/>
+  <object name="Brick" type="Brick" x="1050" y="979" width="212" height="41"/>
+  <object name="Spikes" type="Spikes" x="1329" y="1152" width="212" height="40"/>
+  <object name="Spikes" type="Spikes" x="3289" y="1152" width="143" height="40"/>
+  <object name="Brick" type="Brick" x="3290" y="980" width="139" height="43"/>
+  <object name="Spikes" type="Spikes" x="2031" y="1153" width="67" height="38"/>
+ </objectgroup>
+ <objectgroup name="CoinLayer" width="60" height="20">
+  <object name="Coin" type="Coin" x="2363" y="1109" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="2457" y="1109" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="1627" y="824" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="2863" y="900" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="1170" y="902" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="1072" y="900" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="1718" y="826" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="2157" y="826" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="3462" y="1029" width="79" height="70"/>
+  <object name="Coin" type="Coin" x="3546" y="1028" width="79" height="70"/>
+ </objectgroup>
+ <objectgroup name="MonsterLayer" width="60" height="20">
+  <object name="FlyingSlime" type="FlyingSlime" x="3434" y="870" width="127" height="106"/>
+  <object name="Slime" type="Slime" x="1905" y="1131" width="74" height="46"/>
+  <object name="Slime" type="Slime" x="2867" y="1132" width="74" height="46"/>
+  <object name="Slime" type="Slime" x="3676" y="1112" width="74" height="46"/>
+  <object name="Slime" type="Slime" x="2186" y="1123" width="74" height="46"/>
+  <object name="FlyingSlime" type="FlyingSlime" x="8" y="818" width="127" height="106"/>
+ </objectgroup>
+ <objectgroup name="ArticleLayer" width="60" height="20">
+  <object name="Article" type="Article" gid="7" x="4060" y="1120"/>
+  <object name="Article" type="Article" gid="7" x="4060" y="1190"/>
+  <object name="Article" type="Article" gid="7" x="2242" y="894"/>
+  <object name="Article" type="Article" gid="7" x="2315" y="897"/>
+  <object name="Article" type="Article" gid="7" x="1000" y="1186"/>
+  <object name="Article" type="Article" gid="7" x="1075" y="1185"/>
+  <object name="Door" type="Door" gid="31" x="3920" y="1190"/>
+ </objectgroup>
+ <objectgroup name="HeroLayer" width="60" height="20">
+  <object name="Hero" type="Hero" x="350" y="1045" width="97" height="76"/>
+ </objectgroup>
+</map>
