@@ -1,5 +1,7 @@
 BadGame 《烂游戏》
 ===================================
+   by WilhanTian   email wilhan.tian@gmail.com
+   
    本游戏使用cocos2d-x 3.2 Final版本开发。
    为了节省git同步时间，我只保留了Classes文件夹和Res资源文件夹。
    
