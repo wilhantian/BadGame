@@ -32,5 +32,5 @@ TextData   专门保存字符串数据的<br/>
    ![image](https://github.com/wilhantian/BadGame/blob/master/_image/5.png)
     ![image](https://github.com/wilhantian/BadGame/blob/master/_image/6.png)
 
-[好乎-好玩的不亦乐乎](http://www.hahuu.com)
+[好乎-好玩的不亦乐乎](http://www.haohuu.com)
 [498工具盒子](http://www.498box.com)
